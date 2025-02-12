@@ -26,9 +26,9 @@
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#sales">Service</a></li>
                 <li><a href="#properties">Properties</a></li>
+                <li><a href="#contact">Contact</a></li>
 
             </ul>
         </div>
@@ -36,8 +36,10 @@
 
     <section class="home container" id="home">
         <div class="home-text">
-            <h1>Find your NExt <br>Perfect Place To <br>Live</h1>
-            <a href="#" class="btn" id="btn">Contact</a>
+            <h1>Find Your Next Perfect Place To Live <span>In <br> <b>KTM Rental</b></span> </h1>
+            <p>-where home begins comfort, convinence, community.</p>
+            <p>Wheather you need a <b>JOB</b> or a <b>place</b> to live :</p>
+            <a href="#contact" class="btn" id="btn">Contact Us</a>
         </div>
     </section>
 
@@ -49,11 +51,12 @@
 
         <div class="about-text">
             <span>About Us</span>
-            <h2>We provid the best <br>Property for You!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, sapiente.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, eum.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, laboriosam!</p>
-            <a href="#" class="btn" id="btn">Learn More</a>
+            <h2>We provide the best rental <br>PROPERTY, JOB for You!</h2>
+            <p>KTM Rental simplifies your search for the perfect room, apartment, or house for rent in Kathmandu Valley.  </p>
+            <p>With verified listings, detailed property information, and personalized support, we make it easy for you to find a space that truly feels like home.</p>
+            <p>Trust us to handle the details while you focus on what matters most.</p>
+            <p>KTM Rental also helps connect <b>job</b> seekers with the right opportunities in Kathmandu Valley.</p>
+            <a href="#contact" class="btn" id="btn">Contact</a>
         </div>
     </section>
 
@@ -61,27 +64,30 @@
     <section class="sales container" id="sales">
         <!-- box 1 -->
         <div class="box">
-            <i class='bx bx-user'></i>
-            <h3>
-                Make Your Dream True
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, perferendis?</p>
-        </div>
-        <!-- box 3 -->
-        <div class="box">
             <i class='bx bx-home-alt'></i>
+         
             <h3>
-                Enjoy your new home.
+                Find Your Perfect Place
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, perferendis?</p>
+            <p>KTM Rental helps you find the ideal room, apartment, or house for rent,
+                 making your search easy, reliable, and stress-free.</p>
         </div>
         <!-- box 3 -->
         <div class="box">
-            <i class='bx bx-desktop'></i>
+            <i class='bx bx-briefcase'></i>
             <h3>
-                Start your membership</i>
+                Job Opportunities
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, perferendis?</p>
+            <p>KTM Rental connects you with available job opportunities
+                 in Kathmandu Valley.</p>
+        </div>
+        <!-- box 3 -->
+        <div class="box">
+            <i class='bx bx-buildings'></i>
+            <h3>
+                Buy & Sell Property/Land Easily
+            </h3>
+            <p>KTM Rental also assists with buying and selling land, making transactions smooth and straightforward.</p>
         </div>
     </section>
 
@@ -129,7 +135,7 @@
     </section>
     <br>
     <section class="contact container" id="contact">
-        <h2>Let us help you</h2>
+        <h2>Get in Touch with KTM Rental</h2>
         <div class="contact-info">
             <div class="info-item">
                 <i class='bx bx-location-plus'></i>
@@ -150,28 +156,28 @@
 
 
 
-                <label for="name" class="labelwalla">Your Name</label>
+                <label for="name" class="labelwalla">Your Name <span>*</span></label>
                 <input type="text" name="Customer Name" class="inputwalla" placeholder="Enter your name" required>
 
-                <label for="phone" class="labelwalla2">Phone Number</label>
+                <label for="phone" class="labelwalla2">Phone Number <span>*</span></label>
                 <input type="tel" class="inputwalla2" id="phone" name="phone" placeholder="Enter your phone number"
                     required>
 
                 <label for="email">Email <span style="color: #555;">(optional)</span></label>
                 <input type="email" name="Email" class="inputwalla2" placeholder="Enter your email">
-                <label for="location">Desired Location</label>
+                <label for="location">Desired Location <span>*</span></label>
                 <input type="text" id="location" name="location" placeholder="Your suitable location" required>
-                <label for="persons" class="arko">Number of Rooms</label>
+                <label for="persons" class="arko">Number of Rooms <span>*</span></label>
                 <input type="number" id="rooms" name="room" placeholder="No. of rooms/apartments" required>
 
-                <label for="minprice"><b>Your Price Range</b></label>
+                <label for="minprice"><b>Your Price Range <span>*</span></b></label>
                 <!-- <label for="minprice" class="">Minimum Price</label> -->
                 <input type="number" id="price" name="price" placeholder="Minimum Price" required>
                 <!-- <label for="maxprice" class="">Maximum Price</label> -->
                 <input type="number" id="price" name="price" placeholder="Maximum Price" required>
-                <label for="message" class="arko">Message</label>
+                <label for="message" class="arko">Message <span>*</span></label>
                 <textarea id="message" name="message"
-                    placeholder="Your short description about the desired rooms/apartments." required></textarea>
+                    placeholder="Your short description about the desired rooms/apartments." required rows="3"></textarea>
             </div>
             <div class="button-group">
                 <button type="submit">Submit</button>
@@ -188,9 +194,9 @@
         <div class="footer-container container">
             <img src="ktm_rental_logo.png" alt="">
             <div class="footer-box">
-                <h3><i class='bx bx-location-plus'></i> Location</h3>
+                <h3><i class='bx bx-map'></i> Find Us on google map</h3>
                 
-                <p><a href="">Gatthaghar, Nepal</a></p>
+                <p><a href="https://maps.app.goo.gl/z4GrebGAvbCSMKMPA" target="_blank">- Click here</a></p>
             </div>
 
             <div class="footer-box">
