@@ -288,9 +288,11 @@ header {
 .properties-container .box h3 {
     font-size: 1rem;
     font-weight: 600;
+    /* float: right; */
+}
+.properties-container .box .price{
     float: right;
 }
-
 .properties-container .box .content {
     display: flex;
     justify-content: space-between;
@@ -476,6 +478,9 @@ header {
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
+.footer-box p .location{
+    font-size: 1rem;
+}
 
 .footer-box a:hover {
     color: var(--text-color);
@@ -497,6 +502,10 @@ header {
     text-align: center;
     color: var(--bg-color);
     background: var(--main-color)
+}
+.copyright a{
+    color: var(--bg-color);
+    
 }
 
 
